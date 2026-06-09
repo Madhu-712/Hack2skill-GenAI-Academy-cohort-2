@@ -1,0 +1,4 @@
+Legal-ContractIQ-BQ Agent/service-account-key.json
+Legal-ContractIQ-BQ Agent/.env
+__pycache__/
+*.pyc

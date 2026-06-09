@@ -1,0 +1,51 @@
+contract_id,contract_type,party_a,party_b,effective_date,expiration_date,contract_period_days,status,governing_law,renewal_type,notice_period_days
+CTR-0001,NDA,AlphaTech Solutions,BlueWave Systems,2025-01-02,2028-01-02,1095,Active,California,Auto-Renew,90
+CTR-0002,NDA,Vertex Innovations,AlphaTech Solutions,2025-01-03,2026-01-03,365,Active,Karnataka,Auto-Renew,30
+CTR-0003,NDA,Nova Industries,Vertex Innovations,2025-01-04,2028-01-04,1095,Active,England & Wales,None,60
+CTR-0004,Vendor Agreement,Vertex Innovations,BlueWave Systems,2025-01-05,2026-01-05,365,Draft,California,Auto-Renew,60
+CTR-0005,NDA,Vertex Innovations,AlphaTech Solutions,2025-01-06,2026-01-06,365,Draft,New York,None,60
+CTR-0006,Shareholder Agreement,AlphaTech Solutions,Vertex Innovations,2025-01-07,2026-01-07,365,Active,New York,None,90
+CTR-0007,Vendor Agreement,AlphaTech Solutions,AlphaTech Solutions,2025-01-08,2027-01-08,730,Expired,California,Manual,30
+CTR-0008,NDA,Vertex Innovations,BlueWave Systems,2025-01-09,2026-01-09,365,Draft,New York,Auto-Renew,60
+CTR-0009,Vendor Agreement,BlueWave Systems,AlphaTech Solutions,2025-01-10,2027-01-10,730,Expired,California,None,90
+CTR-0010,Vendor Agreement,Vertex Innovations,Vertex Innovations,2025-01-11,2026-01-11,365,Draft,California,None,60
+CTR-0011,Vendor Agreement,AlphaTech Solutions,BlueWave Systems,2025-01-12,2026-01-12,365,Draft,New York,Auto-Renew,30
+CTR-0012,Employment Agreement,Nova Industries,Vertex Innovations,2025-01-13,2028-01-13,1095,Draft,England & Wales,Auto-Renew,60
+CTR-0013,Vendor Agreement,BlueWave Systems,Vertex Innovations,2025-01-14,2026-01-14,365,Expired,England & Wales,Manual,30
+CTR-0014,Shareholder Agreement,AlphaTech Solutions,AlphaTech Solutions,2025-01-15,2026-01-15,365,Active,California,None,30
+CTR-0015,Shareholder Agreement,AlphaTech Solutions,Vertex Innovations,2025-01-16,2028-01-16,1095,Draft,England & Wales,None,60
+CTR-0016,NDA,AlphaTech Solutions,BlueWave Systems,2025-01-17,2028-01-17,1095,Expired,New York,Auto-Renew,60
+CTR-0017,Vendor Agreement,Vertex Innovations,AlphaTech Solutions,2025-01-18,2027-01-18,730,Expired,New York,None,30
+CTR-0018,NDA,BlueWave Systems,Nova Industries,2025-01-19,2028-01-19,1095,Active,New York,Auto-Renew,90
+CTR-0019,NDA,BlueWave Systems,Vertex Innovations,2025-01-20,2028-01-20,1095,Active,Karnataka,Manual,60
+CTR-0020,NDA,Nova Industries,AlphaTech Solutions,2025-01-21,2026-01-21,365,Active,England & Wales,Auto-Renew,90
+CTR-0021,Vendor Agreement,Vertex Innovations,Nova Industries,2025-01-22,2026-01-22,365,Draft,England & Wales,Auto-Renew,90
+CTR-0022,Vendor Agreement,BlueWave Systems,Vertex Innovations,2025-01-23,2028-01-23,1095,Expired,New York,Manual,90
+CTR-0023,NDA,Nova Industries,Nova Industries,2025-01-24,2027-01-24,730,Active,New York,Auto-Renew,90
+CTR-0024,Vendor Agreement,Nova Industries,AlphaTech Solutions,2025-01-25,2028-01-25,1095,Active,Karnataka,Auto-Renew,30
+CTR-0025,Employment Agreement,AlphaTech Solutions,Nova Industries,2025-01-26,2026-01-26,365,Draft,England & Wales,Auto-Renew,90
+CTR-0026,Shareholder Agreement,Nova Industries,Vertex Innovations,2025-01-27,2026-01-27,365,Draft,California,Auto-Renew,30
+CTR-0027,Shareholder Agreement,BlueWave Systems,Vertex Innovations,2025-01-28,2028-01-28,1095,Draft,England & Wales,None,30
+CTR-0028,NDA,AlphaTech Solutions,Vertex Innovations,2025-01-29,2028-01-29,1095,Expired,New York,Auto-Renew,30
+CTR-0029,Vendor Agreement,Vertex Innovations,Nova Industries,2025-01-30,2026-01-30,365,Draft,California,Manual,60
+CTR-0030,NDA,Vertex Innovations,AlphaTech Solutions,2025-01-31,2026-01-31,365,Active,Karnataka,Auto-Renew,30
+CTR-0031,Shareholder Agreement,Vertex Innovations,Vertex Innovations,2025-02-01,2026-02-01,365,Active,England & Wales,Auto-Renew,30
+CTR-0032,NDA,Vertex Innovations,BlueWave Systems,2025-02-02,2027-02-02,730,Draft,New York,Manual,90
+CTR-0033,Shareholder Agreement,Nova Industries,Nova Industries,2025-02-03,2028-02-03,1095,Draft,California,Auto-Renew,90
+CTR-0034,NDA,BlueWave Systems,AlphaTech Solutions,2025-02-04,2028-02-04,1095,Active,England & Wales,None,90
+CTR-0035,NDA,AlphaTech Solutions,Nova Industries,2025-02-05,2026-02-05,365,Active,Karnataka,None,30
+CTR-0036,NDA,Nova Industries,AlphaTech Solutions,2025-02-06,2027-02-06,730,Expired,Karnataka,Manual,90
+CTR-0037,Employment Agreement,BlueWave Systems,Nova Industries,2025-02-07,2028-02-07,1095,Expired,New York,Auto-Renew,60
+CTR-0038,Vendor Agreement,BlueWave Systems,Vertex Innovations,2025-02-08,2027-02-08,730,Draft,Karnataka,Auto-Renew,60
+CTR-0039,NDA,AlphaTech Solutions,Nova Industries,2025-02-09,2028-02-09,1095,Expired,New York,Auto-Renew,60
+CTR-0040,Vendor Agreement,BlueWave Systems,BlueWave Systems,2025-02-10,2026-02-10,365,Active,England & Wales,None,90
+CTR-0041,NDA,BlueWave Systems,AlphaTech Solutions,2025-02-11,2027-02-11,730,Active,New York,Auto-Renew,30
+CTR-0042,Vendor Agreement,BlueWave Systems,BlueWave Systems,2025-02-12,2028-02-12,1095,Expired,California,None,60
+CTR-0043,Employment Agreement,Vertex Innovations,BlueWave Systems,2025-02-13,2026-02-13,365,Active,Karnataka,None,60
+CTR-0044,NDA,AlphaTech Solutions,BlueWave Systems,2025-02-14,2027-02-14,730,Active,New York,Auto-Renew,90
+CTR-0045,Shareholder Agreement,AlphaTech Solutions,AlphaTech Solutions,2025-02-15,2027-02-15,730,Active,California,None,30
+CTR-0046,Vendor Agreement,Vertex Innovations,Nova Industries,2025-02-16,2027-02-16,730,Active,New York,Manual,30
+CTR-0047,Vendor Agreement,Nova Industries,AlphaTech Solutions,2025-02-17,2027-02-17,730,Draft,England & Wales,None,90
+CTR-0048,Vendor Agreement,Nova Industries,Nova Industries,2025-02-18,2026-02-18,365,Draft,Karnataka,Auto-Renew,90
+CTR-0049,Shareholder Agreement,Nova Industries,BlueWave Systems,2025-02-19,2027-02-19,730,Active,Karnataka,Manual,30
+CTR-0050,Vendor Agreement,Nova Industries,Vertex Innovations,2025-02-20,2027-02-20,730,Draft,New York,Auto-Renew,30

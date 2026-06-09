@@ -4,25 +4,70 @@
 [![Built with Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![BigQuery](https://img.shields.io/badge/Database-BigQuery-669DF6?logo=google-bigquery&logoColor=white)](https://cloud.google.com/bigquery)
 
-A sophisticated AI-powered legal data intelligence agent that enables natural language interaction with complex legal datasets using **Vertex AI BigQuery Data Agents** and **Streamlit**.
 
 ---
-
 ## 📖 Project Overview
-The **Legal-ContractIQ-BQ Agent** is a generative AI solution designed to bridge the gap between complex legal data and actionable insights. By leveraging Google Cloud's Vertex AI and BigQuery, this application allows legal professionals to query thousands of contracts, clauses, and summaries using simple English. The core of the system is a BigQuery Data Agent that translates natural language into optimized SQL queries, providing instant answers without requiring technical expertise.
+The **Legal-ContractIQ-BQ Agent** is a generative AI solution designed to bridge the gap between complex legal data and actionable insights. By leveraging **Vertex AI BigQuery Data Agents** and **Streamlit** this application allows legal professionals to query thousands of contracts, clauses, and summaries using simple English. The core of the system is a BigQuery Data Agent that translates natural language into optimized SQL queries, providing instant answers without requiring technical expertise.
+
+
 
 ## 🏗️ Architecture
 The system follows a modern cloud-native data pipeline:
-1.  **Data Ingestion:** A Python ETL script (`hf_to_bigquery.py`) fetches the **Strova AI Legal Dataset** from Hugging Face.
-2.  **Data Warehouse:** Sanitized data is stored in **Google BigQuery** across multiple tables (`clauses`, `contracts`, `legal_terms`, `summaries`).
+1.  **Data Ingestion:** A Python ETL script (`hf_to_bigquery.py`) fetches the **Strova AI Legal Dataset** from Hugging Face and other csv files are imported into the BQ tables.
+2.  **Data Warehouse(Data layer):** Sanitized data is stored in **Google BigQuery** across multiple tables (`clauses`, `contracts`, `legal_terms`, `summaries`).
 3.  **AI Layer:** **Vertex AI BigQuery Data Agents** process natural language inputs and interact with the BigQuery dataset.
-4.  **UI/UX:** A **Streamlit** dashboard provides a clean, professional interface for users to chat with the data agent and view dataset metrics.
+4.  **UI/UX:** A **Streamlit** dashboard provides a clean, professional interface for users to chat with the data agent to get insights on legal contracts and view dataset metrics.
 
 ## ⚠️ Problem Statement
-Legal departments often manage vast repositories of contracts and clauses. Traditionally, searching for specific terms (e.g., "force majeure" or "liability limits") across hundreds of documents is either a slow manual process or requires a data analyst to write complex SQL queries. This friction slows down legal audits, compliance checks, and due diligence.
+Legal departments often manage vast repositories of contracts and clauses. Traditionally, searching for specific terms (e.g., "force majeure" or "liability limits") across hundreds and thousands of documents is either a tedious slow manual process or requires a data analyst to write complex SQL queries. This friction slows down legal audits, compliance checks, and due diligence.
 
-## 📊 Dataset Description
+## 📊 Dataset Overview & Key Insights
 The dataset consists of structured legal contracts, clauses, and summaries sourced from the [Strova AI legal contract dataset](https://huggingface.co/datasets/strova-ai/legal_contract_dataset) on Hugging Face.
+and also encompasses other datasets consisting  of four interconnected tables that power a GenAI-driven Legal Contract Intelligence and Conversational Analytics Platform using BigQuery and Gemini.
+
+#📄 Contracts Dataset
+
+Stores core contract information such as contract type, involved parties, duration, status, governing law, renewal terms, and notice periods.
+
+Insights
+
+Contains 50 unique contracts across multiple agreement types.
+NDAs (38%) and Vendor Agreements (36%) are the most common contract categories.
+42% of contracts are active, while 22% have expired.
+New York is the most frequently used governing jurisdiction.
+Half of the contracts include auto-renewal clauses.
+
+#⚖️ Clauses Dataset
+
+Contains individual legal clauses extracted from contracts along with clause type and risk level.
+
+Insights
+
+Includes 600 legal clauses across all contracts.
+Termination clauses are the most frequently occurring clause type.
+High-risk clauses account for 34% of all clauses analyzed.
+Common clause categories include Confidentiality, Termination, Indemnification, Payment Terms, and Governing Law.
+
+#📋 Summaries Dataset
+
+Provides AI-generated contract intelligence including executive summaries, obligations, and risks.
+
+Insights
+
+Covers 100 contract summaries.
+Enables rapid contract understanding without reviewing full documents.
+Highlights key obligations, deadlines, and legal risks.
+
+#📚 Legal Terms Dataset
+
+Acts as a legal knowledge base containing legal terms, definitions, and business-friendly explanations.
+
+Insights
+
+Contains legal terminology and definitions.
+Simplifies complex legal concepts for business users.
+Enhances AI-powered legal assistance and knowledge retrieval.
+
 
 ## 🔍 Analysis with a Scenario
 **Scenario:** A legal team is performing a risk assessment for a new merger and needs to identify all "termination" clauses that don't require notice.

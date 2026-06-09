@@ -21,76 +21,8 @@ The system follows a modern cloud-native data pipeline:
 3.  **AI Layer:** **Vertex AI BigQuery Data Agents** process natural language inputs and interact with the BigQuery dataset.
 4.  **UI/UX:** A **Streamlit** dashboard provides a clean, professional interface for users to chat with the data agent to get insights on legal contracts and view dataset metrics.
 
- 
- ───────────────────────────┐
-│           USER            │
-│ Ask Questions / Upload    │
-│ Contracts                 │
-└─────────────┬─────────────┘
-              │
-              ▼
-┌───────────────────────────┐
-│      APPLICATION UI       │
-│      Streamlit Frontend   │
-└─────────────┬─────────────┘
-              │
-              ▼
-┌─────────────────────────────────────────┐
-│               AGENT LAYER               │
-├─────────────────────────────────────────┤
-│           ContractIQ Agent              │
-│                                         │
-│ • Query Understanding                   │
-│ • Intent Classification                 │
-│ • Contract Analysis                     │
-│ • Risk Detection                        │
-│ • Conversational Analytics              │
-│ • Natural Language → SQL Generation     │
-│ • Response Orchestration                │
-└─────────────┬───────────────────────────┘
-              │
-              ▼
-┌───────────────────────────┐
-│        GEMINI MODEL       │
-├───────────────────────────┤
-│ • Reasoning               │
-│ • Summarization           │
-│ • Explanation             │
-│ • Insight Generation      │
-└─────────────┬─────────────┘
-              │
-              ▼
-┌─────────────────────────────────────────┐
-│               DATA LAYER                │
-├─────────────────────────────────────────┤
-│ Google BigQuery                         │
-│                                         │
-│ • contracts_updated                     │
-│ • clauses                               │
-│ • summaries                             │
-│ • legal_terms                           │
-│                                         │
-│ Structured Knowledge Repository         │
-└─────────────┬───────────────────────────┘
-              │
-              ▼
-┌───────────────────────────┐
-│      INSIGHTS LAYER       │
-├───────────────────────────┤
-│ • Contract Summaries      │
-│ • Clause Analysis         │
-│ • Risk Assessment         │
-│ • Compliance Insights     │
-│ • Conversational Answers  │
-│ • Business Recommendations│
-└─────────────┬─────────────┘
-              │
-              ▼
-┌───────────────────────────┐
-│         END USER          │
-│ AI-Powered Contract       │
-│ Intelligence & Analytics  │
-└───────────────────────────┘
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/c8fc4c08-d3a1-449b-b548-9f9adc53af0f" />
+
 
 
 ## 📊 Dataset Overview & Key Insights
@@ -294,12 +226,31 @@ Streamlit App hosted on CloudRun service url
 
 https://legal-agent-service-881601845310.us-central1.run.app
 
-## Q&A interactions with agents 
-"Which contracts expire in the next 90 days?"
-"Show all contracts with high-risk termination clauses."
-"What are the key obligations in active vendor agreements?"
-"Which governing law appears most frequently?"
-"Summarize the risks across all NDAs."
+
+## Example Queries
+Contract Summary:
+
+Summarize CTR-0004
+Summarize the risks across all NDAs.
+
+Contract Comparison:
+
+Compare termination clauses across vendor agreements
+
+Risk Analysis:
+
+Identify contracts containing high-risk clauses
+Show all contracts with high-risk termination clauses.
+What are the key obligations in active vendor agreements?
+
+Legal Explanation:
+
+What does indemnification mean?
+
+Multilingual Query:
+
+NDA-001 का सारांश बताइए
+EMP-101 ಒಪ್ಪಂದದ ಪ್ರಮುಖ ಅಪಾಯಗಳು ಯಾವುವು?
 
 
 ## 🤝 Contributions

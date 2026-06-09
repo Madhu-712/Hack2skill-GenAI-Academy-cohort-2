@@ -1,4 +1,4 @@
-# 💼 Legal-ContractIQ-BQ Agent
+# 💼 Multilingual Legal-ContractIQ-BQ Agent
 
 [![Powered by Google Cloud](https://img.shields.io/badge/Powered%20By-Google%20Cloud-4285F4?logo=google-cloud&logoColor=white)](https://cloud.google.com/)
 [![Built with Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -7,7 +7,7 @@
 
 ---
 ## 📖 Project Overview
-The **Legal-ContractIQ-BQ Agent** is a generative AI solution designed to bridge the gap between complex legal data and actionable insights. By leveraging **Vertex AI BigQuery Data Agents** and **Streamlit** this application allows legal professionals to query thousands of contracts, clauses, and summaries using simple English. The core of the system is a BigQuery Data Agent that translates natural language into optimized SQL queries, providing instant answers without requiring technical expertise.
+The **Legal-ContractIQ-BQ Agent** is a generative AI solution designed to bridge the gap between complex legal data and actionable insights. By leveraging **Vertex AI BigQuery Data Agents** and **Streamlit** this application allows legal professionals to query thousands of contracts, clauses, and summaries using simple English. The core of the system is a BigQuery Data Agent that translates natural language into optimized SQL queries, providing instant answers without requiring technical expertise.(Non lawyers) in multiple languages.
 
 
 
@@ -127,6 +127,7 @@ Legal departments often manage vast repositories of contracts and clauses. Tradi
 -   **Contract Lifecycle Management (CLM):** Automate the extraction of key dates and obligations.
 -   **Regulatory Compliance:** Rapidly cross-reference new laws against existing contract libraries.
 -   **M&A Due Diligence:** Speed up the review of acquired legal liabilities during corporate mergers.
+-   **Multilingual Support:** Get queries answered in multiple language of your choice.(Hindi, English, Kannada,Tamil, Malyalam & Telgu)
 
 ## 📂 Project Structure
 ```text

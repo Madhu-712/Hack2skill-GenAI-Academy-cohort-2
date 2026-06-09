@@ -21,6 +21,7 @@ The system follows a modern cloud-native data pipeline:
 3.  **AI Layer:** **Vertex AI BigQuery Data Agents** process natural language inputs and interact with the BigQuery dataset.
 4.  **UI/UX:** A **Streamlit** dashboard provides a clean, professional interface for users to chat with the data agent to get insights on legal contracts and view dataset metrics.
 
+
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/c8fc4c08-d3a1-449b-b548-9f9adc53af0f" />
 
 

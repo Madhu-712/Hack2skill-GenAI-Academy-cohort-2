@@ -1,0 +1,241 @@
+contract_id,clause_id,clause_type,clause_text,risk_level
+CTR-0001,CTR-0001-C01,Definitions,"This definitions clause applies to contract CTR-0001. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0001,CTR-0001-C02,Confidentiality,"This confidentiality clause applies to contract CTR-0001. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0001,CTR-0001-C03,Exclusions,"This exclusions clause applies to contract CTR-0001. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0001,CTR-0001-C04,Term,"This term clause applies to contract CTR-0001. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0001,CTR-0001-C05,Termination,"This termination clause applies to contract CTR-0001. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0001,CTR-0001-C06,Governing Law,"This governing law clause applies to contract CTR-0001. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0002,CTR-0002-C01,Scope of Services,"This scope of services clause applies to contract CTR-0002. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0002,CTR-0002-C02,Payment Terms,"This payment terms clause applies to contract CTR-0002. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0002,CTR-0002-C03,SLA,"This sla clause applies to contract CTR-0002. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0002,CTR-0002-C04,Indemnification,"This indemnification clause applies to contract CTR-0002. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0002,CTR-0002-C05,Termination,"This termination clause applies to contract CTR-0002. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0002,CTR-0002-C06,Liability,"This liability clause applies to contract CTR-0002. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0003,CTR-0003-C01,Compensation,"This compensation clause applies to contract CTR-0003. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0003,CTR-0003-C02,Benefits,"This benefits clause applies to contract CTR-0003. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0003,CTR-0003-C03,Confidentiality,"This confidentiality clause applies to contract CTR-0003. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0003,CTR-0003-C04,Non-Compete,"This non-compete clause applies to contract CTR-0003. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0003,CTR-0003-C05,IP Assignment,"This ip assignment clause applies to contract CTR-0003. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0003,CTR-0003-C06,Termination,"This termination clause applies to contract CTR-0003. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0004,CTR-0004-C01,Ownership,"This ownership clause applies to contract CTR-0004. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0004,CTR-0004-C02,Voting Rights,"This voting rights clause applies to contract CTR-0004. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0004,CTR-0004-C03,Transfer Restrictions,"This transfer restrictions clause applies to contract CTR-0004. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0004,CTR-0004-C04,Dividend Policy,"This dividend policy clause applies to contract CTR-0004. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0004,CTR-0004-C05,Tag-Along Rights,"This tag-along rights clause applies to contract CTR-0004. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0004,CTR-0004-C06,Dispute Resolution,"This dispute resolution clause applies to contract CTR-0004. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0005,CTR-0005-C01,Definitions,"This definitions clause applies to contract CTR-0005. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0005,CTR-0005-C02,Confidentiality,"This confidentiality clause applies to contract CTR-0005. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0005,CTR-0005-C03,Exclusions,"This exclusions clause applies to contract CTR-0005. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0005,CTR-0005-C04,Term,"This term clause applies to contract CTR-0005. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0005,CTR-0005-C05,Termination,"This termination clause applies to contract CTR-0005. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0005,CTR-0005-C06,Governing Law,"This governing law clause applies to contract CTR-0005. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0006,CTR-0006-C01,Scope of Services,"This scope of services clause applies to contract CTR-0006. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0006,CTR-0006-C02,Payment Terms,"This payment terms clause applies to contract CTR-0006. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0006,CTR-0006-C03,SLA,"This sla clause applies to contract CTR-0006. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0006,CTR-0006-C04,Indemnification,"This indemnification clause applies to contract CTR-0006. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0006,CTR-0006-C05,Termination,"This termination clause applies to contract CTR-0006. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0006,CTR-0006-C06,Liability,"This liability clause applies to contract CTR-0006. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0007,CTR-0007-C01,Compensation,"This compensation clause applies to contract CTR-0007. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0007,CTR-0007-C02,Benefits,"This benefits clause applies to contract CTR-0007. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0007,CTR-0007-C03,Confidentiality,"This confidentiality clause applies to contract CTR-0007. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0007,CTR-0007-C04,Non-Compete,"This non-compete clause applies to contract CTR-0007. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0007,CTR-0007-C05,IP Assignment,"This ip assignment clause applies to contract CTR-0007. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0007,CTR-0007-C06,Termination,"This termination clause applies to contract CTR-0007. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0008,CTR-0008-C01,Ownership,"This ownership clause applies to contract CTR-0008. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0008,CTR-0008-C02,Voting Rights,"This voting rights clause applies to contract CTR-0008. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0008,CTR-0008-C03,Transfer Restrictions,"This transfer restrictions clause applies to contract CTR-0008. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0008,CTR-0008-C04,Dividend Policy,"This dividend policy clause applies to contract CTR-0008. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0008,CTR-0008-C05,Tag-Along Rights,"This tag-along rights clause applies to contract CTR-0008. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0008,CTR-0008-C06,Dispute Resolution,"This dispute resolution clause applies to contract CTR-0008. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0009,CTR-0009-C01,Definitions,"This definitions clause applies to contract CTR-0009. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0009,CTR-0009-C02,Confidentiality,"This confidentiality clause applies to contract CTR-0009. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0009,CTR-0009-C03,Exclusions,"This exclusions clause applies to contract CTR-0009. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0009,CTR-0009-C04,Term,"This term clause applies to contract CTR-0009. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0009,CTR-0009-C05,Termination,"This termination clause applies to contract CTR-0009. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0009,CTR-0009-C06,Governing Law,"This governing law clause applies to contract CTR-0009. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0010,CTR-0010-C01,Scope of Services,"This scope of services clause applies to contract CTR-0010. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0010,CTR-0010-C02,Payment Terms,"This payment terms clause applies to contract CTR-0010. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0010,CTR-0010-C03,SLA,"This sla clause applies to contract CTR-0010. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0010,CTR-0010-C04,Indemnification,"This indemnification clause applies to contract CTR-0010. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0010,CTR-0010-C05,Termination,"This termination clause applies to contract CTR-0010. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0010,CTR-0010-C06,Liability,"This liability clause applies to contract CTR-0010. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0011,CTR-0011-C01,Compensation,"This compensation clause applies to contract CTR-0011. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0011,CTR-0011-C02,Benefits,"This benefits clause applies to contract CTR-0011. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0011,CTR-0011-C03,Confidentiality,"This confidentiality clause applies to contract CTR-0011. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0011,CTR-0011-C04,Non-Compete,"This non-compete clause applies to contract CTR-0011. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0011,CTR-0011-C05,IP Assignment,"This ip assignment clause applies to contract CTR-0011. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0011,CTR-0011-C06,Termination,"This termination clause applies to contract CTR-0011. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0012,CTR-0012-C01,Ownership,"This ownership clause applies to contract CTR-0012. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0012,CTR-0012-C02,Voting Rights,"This voting rights clause applies to contract CTR-0012. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0012,CTR-0012-C03,Transfer Restrictions,"This transfer restrictions clause applies to contract CTR-0012. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0012,CTR-0012-C04,Dividend Policy,"This dividend policy clause applies to contract CTR-0012. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0012,CTR-0012-C05,Tag-Along Rights,"This tag-along rights clause applies to contract CTR-0012. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0012,CTR-0012-C06,Dispute Resolution,"This dispute resolution clause applies to contract CTR-0012. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0013,CTR-0013-C01,Definitions,"This definitions clause applies to contract CTR-0013. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0013,CTR-0013-C02,Confidentiality,"This confidentiality clause applies to contract CTR-0013. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0013,CTR-0013-C03,Exclusions,"This exclusions clause applies to contract CTR-0013. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0013,CTR-0013-C04,Term,"This term clause applies to contract CTR-0013. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0013,CTR-0013-C05,Termination,"This termination clause applies to contract CTR-0013. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0013,CTR-0013-C06,Governing Law,"This governing law clause applies to contract CTR-0013. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0014,CTR-0014-C01,Scope of Services,"This scope of services clause applies to contract CTR-0014. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0014,CTR-0014-C02,Payment Terms,"This payment terms clause applies to contract CTR-0014. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0014,CTR-0014-C03,SLA,"This sla clause applies to contract CTR-0014. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0014,CTR-0014-C04,Indemnification,"This indemnification clause applies to contract CTR-0014. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0014,CTR-0014-C05,Termination,"This termination clause applies to contract CTR-0014. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0014,CTR-0014-C06,Liability,"This liability clause applies to contract CTR-0014. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0015,CTR-0015-C01,Compensation,"This compensation clause applies to contract CTR-0015. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0015,CTR-0015-C02,Benefits,"This benefits clause applies to contract CTR-0015. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0015,CTR-0015-C03,Confidentiality,"This confidentiality clause applies to contract CTR-0015. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0015,CTR-0015-C04,Non-Compete,"This non-compete clause applies to contract CTR-0015. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0015,CTR-0015-C05,IP Assignment,"This ip assignment clause applies to contract CTR-0015. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0015,CTR-0015-C06,Termination,"This termination clause applies to contract CTR-0015. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0016,CTR-0016-C01,Ownership,"This ownership clause applies to contract CTR-0016. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0016,CTR-0016-C02,Voting Rights,"This voting rights clause applies to contract CTR-0016. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0016,CTR-0016-C03,Transfer Restrictions,"This transfer restrictions clause applies to contract CTR-0016. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0016,CTR-0016-C04,Dividend Policy,"This dividend policy clause applies to contract CTR-0016. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0016,CTR-0016-C05,Tag-Along Rights,"This tag-along rights clause applies to contract CTR-0016. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0016,CTR-0016-C06,Dispute Resolution,"This dispute resolution clause applies to contract CTR-0016. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0017,CTR-0017-C01,Definitions,"This definitions clause applies to contract CTR-0017. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0017,CTR-0017-C02,Confidentiality,"This confidentiality clause applies to contract CTR-0017. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0017,CTR-0017-C03,Exclusions,"This exclusions clause applies to contract CTR-0017. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0017,CTR-0017-C04,Term,"This term clause applies to contract CTR-0017. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0017,CTR-0017-C05,Termination,"This termination clause applies to contract CTR-0017. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0017,CTR-0017-C06,Governing Law,"This governing law clause applies to contract CTR-0017. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0018,CTR-0018-C01,Scope of Services,"This scope of services clause applies to contract CTR-0018. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0018,CTR-0018-C02,Payment Terms,"This payment terms clause applies to contract CTR-0018. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0018,CTR-0018-C03,SLA,"This sla clause applies to contract CTR-0018. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0018,CTR-0018-C04,Indemnification,"This indemnification clause applies to contract CTR-0018. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0018,CTR-0018-C05,Termination,"This termination clause applies to contract CTR-0018. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0018,CTR-0018-C06,Liability,"This liability clause applies to contract CTR-0018. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0019,CTR-0019-C01,Compensation,"This compensation clause applies to contract CTR-0019. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0019,CTR-0019-C02,Benefits,"This benefits clause applies to contract CTR-0019. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0019,CTR-0019-C03,Confidentiality,"This confidentiality clause applies to contract CTR-0019. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0019,CTR-0019-C04,Non-Compete,"This non-compete clause applies to contract CTR-0019. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0019,CTR-0019-C05,IP Assignment,"This ip assignment clause applies to contract CTR-0019. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0019,CTR-0019-C06,Termination,"This termination clause applies to contract CTR-0019. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0020,CTR-0020-C01,Ownership,"This ownership clause applies to contract CTR-0020. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0020,CTR-0020-C02,Voting Rights,"This voting rights clause applies to contract CTR-0020. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0020,CTR-0020-C03,Transfer Restrictions,"This transfer restrictions clause applies to contract CTR-0020. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0020,CTR-0020-C04,Dividend Policy,"This dividend policy clause applies to contract CTR-0020. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0020,CTR-0020-C05,Tag-Along Rights,"This tag-along rights clause applies to contract CTR-0020. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0020,CTR-0020-C06,Dispute Resolution,"This dispute resolution clause applies to contract CTR-0020. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0021,CTR-0021-C01,Definitions,"This definitions clause applies to contract CTR-0021. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0021,CTR-0021-C02,Confidentiality,"This confidentiality clause applies to contract CTR-0021. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0021,CTR-0021-C03,Exclusions,"This exclusions clause applies to contract CTR-0021. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0021,CTR-0021-C04,Term,"This term clause applies to contract CTR-0021. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0021,CTR-0021-C05,Termination,"This termination clause applies to contract CTR-0021. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0021,CTR-0021-C06,Governing Law,"This governing law clause applies to contract CTR-0021. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0022,CTR-0022-C01,Scope of Services,"This scope of services clause applies to contract CTR-0022. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0022,CTR-0022-C02,Payment Terms,"This payment terms clause applies to contract CTR-0022. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0022,CTR-0022-C03,SLA,"This sla clause applies to contract CTR-0022. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0022,CTR-0022-C04,Indemnification,"This indemnification clause applies to contract CTR-0022. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0022,CTR-0022-C05,Termination,"This termination clause applies to contract CTR-0022. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0022,CTR-0022-C06,Liability,"This liability clause applies to contract CTR-0022. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0023,CTR-0023-C01,Compensation,"This compensation clause applies to contract CTR-0023. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0023,CTR-0023-C02,Benefits,"This benefits clause applies to contract CTR-0023. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0023,CTR-0023-C03,Confidentiality,"This confidentiality clause applies to contract CTR-0023. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0023,CTR-0023-C04,Non-Compete,"This non-compete clause applies to contract CTR-0023. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0023,CTR-0023-C05,IP Assignment,"This ip assignment clause applies to contract CTR-0023. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0023,CTR-0023-C06,Termination,"This termination clause applies to contract CTR-0023. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0024,CTR-0024-C01,Ownership,"This ownership clause applies to contract CTR-0024. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0024,CTR-0024-C02,Voting Rights,"This voting rights clause applies to contract CTR-0024. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0024,CTR-0024-C03,Transfer Restrictions,"This transfer restrictions clause applies to contract CTR-0024. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0024,CTR-0024-C04,Dividend Policy,"This dividend policy clause applies to contract CTR-0024. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0024,CTR-0024-C05,Tag-Along Rights,"This tag-along rights clause applies to contract CTR-0024. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0024,CTR-0024-C06,Dispute Resolution,"This dispute resolution clause applies to contract CTR-0024. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0025,CTR-0025-C01,Definitions,"This definitions clause applies to contract CTR-0025. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0025,CTR-0025-C02,Confidentiality,"This confidentiality clause applies to contract CTR-0025. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0025,CTR-0025-C03,Exclusions,"This exclusions clause applies to contract CTR-0025. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0025,CTR-0025-C04,Term,"This term clause applies to contract CTR-0025. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0025,CTR-0025-C05,Termination,"This termination clause applies to contract CTR-0025. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0025,CTR-0025-C06,Governing Law,"This governing law clause applies to contract CTR-0025. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0026,CTR-0026-C01,Scope of Services,"This scope of services clause applies to contract CTR-0026. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0026,CTR-0026-C02,Payment Terms,"This payment terms clause applies to contract CTR-0026. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0026,CTR-0026-C03,SLA,"This sla clause applies to contract CTR-0026. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0026,CTR-0026-C04,Indemnification,"This indemnification clause applies to contract CTR-0026. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0026,CTR-0026-C05,Termination,"This termination clause applies to contract CTR-0026. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0026,CTR-0026-C06,Liability,"This liability clause applies to contract CTR-0026. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0027,CTR-0027-C01,Compensation,"This compensation clause applies to contract CTR-0027. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0027,CTR-0027-C02,Benefits,"This benefits clause applies to contract CTR-0027. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0027,CTR-0027-C03,Confidentiality,"This confidentiality clause applies to contract CTR-0027. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0027,CTR-0027-C04,Non-Compete,"This non-compete clause applies to contract CTR-0027. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0027,CTR-0027-C05,IP Assignment,"This ip assignment clause applies to contract CTR-0027. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0027,CTR-0027-C06,Termination,"This termination clause applies to contract CTR-0027. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0028,CTR-0028-C01,Ownership,"This ownership clause applies to contract CTR-0028. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0028,CTR-0028-C02,Voting Rights,"This voting rights clause applies to contract CTR-0028. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0028,CTR-0028-C03,Transfer Restrictions,"This transfer restrictions clause applies to contract CTR-0028. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0028,CTR-0028-C04,Dividend Policy,"This dividend policy clause applies to contract CTR-0028. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0028,CTR-0028-C05,Tag-Along Rights,"This tag-along rights clause applies to contract CTR-0028. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0028,CTR-0028-C06,Dispute Resolution,"This dispute resolution clause applies to contract CTR-0028. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0029,CTR-0029-C01,Definitions,"This definitions clause applies to contract CTR-0029. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0029,CTR-0029-C02,Confidentiality,"This confidentiality clause applies to contract CTR-0029. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0029,CTR-0029-C03,Exclusions,"This exclusions clause applies to contract CTR-0029. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0029,CTR-0029-C04,Term,"This term clause applies to contract CTR-0029. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0029,CTR-0029-C05,Termination,"This termination clause applies to contract CTR-0029. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0029,CTR-0029-C06,Governing Law,"This governing law clause applies to contract CTR-0029. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0030,CTR-0030-C01,Scope of Services,"This scope of services clause applies to contract CTR-0030. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0030,CTR-0030-C02,Payment Terms,"This payment terms clause applies to contract CTR-0030. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0030,CTR-0030-C03,SLA,"This sla clause applies to contract CTR-0030. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0030,CTR-0030-C04,Indemnification,"This indemnification clause applies to contract CTR-0030. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0030,CTR-0030-C05,Termination,"This termination clause applies to contract CTR-0030. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0030,CTR-0030-C06,Liability,"This liability clause applies to contract CTR-0030. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0031,CTR-0031-C01,Compensation,"This compensation clause applies to contract CTR-0031. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0031,CTR-0031-C02,Benefits,"This benefits clause applies to contract CTR-0031. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0031,CTR-0031-C03,Confidentiality,"This confidentiality clause applies to contract CTR-0031. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0031,CTR-0031-C04,Non-Compete,"This non-compete clause applies to contract CTR-0031. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0031,CTR-0031-C05,IP Assignment,"This ip assignment clause applies to contract CTR-0031. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0031,CTR-0031-C06,Termination,"This termination clause applies to contract CTR-0031. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0032,CTR-0032-C01,Ownership,"This ownership clause applies to contract CTR-0032. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0032,CTR-0032-C02,Voting Rights,"This voting rights clause applies to contract CTR-0032. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0032,CTR-0032-C03,Transfer Restrictions,"This transfer restrictions clause applies to contract CTR-0032. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0032,CTR-0032-C04,Dividend Policy,"This dividend policy clause applies to contract CTR-0032. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0032,CTR-0032-C05,Tag-Along Rights,"This tag-along rights clause applies to contract CTR-0032. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0032,CTR-0032-C06,Dispute Resolution,"This dispute resolution clause applies to contract CTR-0032. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0033,CTR-0033-C01,Definitions,"This definitions clause applies to contract CTR-0033. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0033,CTR-0033-C02,Confidentiality,"This confidentiality clause applies to contract CTR-0033. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0033,CTR-0033-C03,Exclusions,"This exclusions clause applies to contract CTR-0033. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0033,CTR-0033-C04,Term,"This term clause applies to contract CTR-0033. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0033,CTR-0033-C05,Termination,"This termination clause applies to contract CTR-0033. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0033,CTR-0033-C06,Governing Law,"This governing law clause applies to contract CTR-0033. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0034,CTR-0034-C01,Scope of Services,"This scope of services clause applies to contract CTR-0034. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0034,CTR-0034-C02,Payment Terms,"This payment terms clause applies to contract CTR-0034. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0034,CTR-0034-C03,SLA,"This sla clause applies to contract CTR-0034. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0034,CTR-0034-C04,Indemnification,"This indemnification clause applies to contract CTR-0034. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0034,CTR-0034-C05,Termination,"This termination clause applies to contract CTR-0034. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0034,CTR-0034-C06,Liability,"This liability clause applies to contract CTR-0034. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0035,CTR-0035-C01,Compensation,"This compensation clause applies to contract CTR-0035. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0035,CTR-0035-C02,Benefits,"This benefits clause applies to contract CTR-0035. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0035,CTR-0035-C03,Confidentiality,"This confidentiality clause applies to contract CTR-0035. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0035,CTR-0035-C04,Non-Compete,"This non-compete clause applies to contract CTR-0035. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0035,CTR-0035-C05,IP Assignment,"This ip assignment clause applies to contract CTR-0035. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0035,CTR-0035-C06,Termination,"This termination clause applies to contract CTR-0035. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0036,CTR-0036-C01,Ownership,"This ownership clause applies to contract CTR-0036. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0036,CTR-0036-C02,Voting Rights,"This voting rights clause applies to contract CTR-0036. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0036,CTR-0036-C03,Transfer Restrictions,"This transfer restrictions clause applies to contract CTR-0036. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0036,CTR-0036-C04,Dividend Policy,"This dividend policy clause applies to contract CTR-0036. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0036,CTR-0036-C05,Tag-Along Rights,"This tag-along rights clause applies to contract CTR-0036. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0036,CTR-0036-C06,Dispute Resolution,"This dispute resolution clause applies to contract CTR-0036. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0037,CTR-0037-C01,Definitions,"This definitions clause applies to contract CTR-0037. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0037,CTR-0037-C02,Confidentiality,"This confidentiality clause applies to contract CTR-0037. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0037,CTR-0037-C03,Exclusions,"This exclusions clause applies to contract CTR-0037. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0037,CTR-0037-C04,Term,"This term clause applies to contract CTR-0037. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0037,CTR-0037-C05,Termination,"This termination clause applies to contract CTR-0037. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0037,CTR-0037-C06,Governing Law,"This governing law clause applies to contract CTR-0037. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0038,CTR-0038-C01,Scope of Services,"This scope of services clause applies to contract CTR-0038. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0038,CTR-0038-C02,Payment Terms,"This payment terms clause applies to contract CTR-0038. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0038,CTR-0038-C03,SLA,"This sla clause applies to contract CTR-0038. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0038,CTR-0038-C04,Indemnification,"This indemnification clause applies to contract CTR-0038. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0038,CTR-0038-C05,Termination,"This termination clause applies to contract CTR-0038. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0038,CTR-0038-C06,Liability,"This liability clause applies to contract CTR-0038. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0039,CTR-0039-C01,Compensation,"This compensation clause applies to contract CTR-0039. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0039,CTR-0039-C02,Benefits,"This benefits clause applies to contract CTR-0039. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0039,CTR-0039-C03,Confidentiality,"This confidentiality clause applies to contract CTR-0039. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0039,CTR-0039-C04,Non-Compete,"This non-compete clause applies to contract CTR-0039. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0039,CTR-0039-C05,IP Assignment,"This ip assignment clause applies to contract CTR-0039. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0039,CTR-0039-C06,Termination,"This termination clause applies to contract CTR-0039. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0040,CTR-0040-C01,Ownership,"This ownership clause applies to contract CTR-0040. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0040,CTR-0040-C02,Voting Rights,"This voting rights clause applies to contract CTR-0100. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0040,CTR-0040-C03,Transfer Restrictions,"This transfer restrictions clause applies to contract CTR-0100. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Medium
+CTR-0040,CTR-0040-C04,Dividend Policy,"This dividend policy clause applies to contract CTR-0100. The parties agree to the rights, responsibilities, and obligations defined in this provision.",High
+CTR-0040,CTR-0040-C05,Tag-Along Rights,"This tag-along rights clause applies to contract CTR-0100. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low
+CTR-0040,CTR-0040-C06,Dispute Resolution,"This dispute resolution clause applies to contract CTR-0100. The parties agree to the rights, responsibilities, and obligations defined in this provision.",Low

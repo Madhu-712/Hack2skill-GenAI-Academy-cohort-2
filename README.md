@@ -18,8 +18,6 @@ The system follows a modern cloud-native data pipeline:
 3.  **AI Layer:** **Vertex AI BigQuery Data Agents** process natural language inputs and interact with the BigQuery dataset.
 4.  **UI/UX:** A **Streamlit** dashboard provides a clean, professional interface for users to chat with the data agent to get insights on legal contracts and view dataset metrics.
 
-## ⚠️ Problem Statement
-Legal departments often manage vast repositories of contracts and clauses. Traditionally, searching for specific terms (e.g., "force majeure" or "liability limits") across hundreds and thousands of documents is either a tedious slow manual process or requires a data analyst to write complex SQL queries. This friction slows down legal audits, compliance checks, and due diligence.
 
 ## 📊 Dataset Overview & Key Insights
 The dataset consists of structured legal contracts, clauses, and summaries sourced from the [Strova AI legal contract dataset](https://huggingface.co/datasets/strova-ai/legal_contract_dataset) on Hugging Face.
@@ -37,6 +35,21 @@ NDAs (38%) and Vendor Agreements (36%) are the most common contract categories.
 New York is the most frequently used governing jurisdiction.
 Half of the contracts include auto-renewal clauses.
 
+| Column                   | Description                                                                               |
+| ------------------------ | ----------------------------------------------------------------------------------------- |
+| **contract_id**          | Unique identifier assigned to each contract.                                              |
+| **contract_type**        | Type of agreement (NDA, Vendor Agreement, Service Agreement, Employment Agreement, etc.). |
+| **party_a**              | First organization or entity involved in the contract.                                    |
+| **party_b**              | Second organization or entity involved in the contract.                                   |
+| **effective_date**       | Date on which the contract becomes legally effective.                                     |
+| **expiration_date**      | Date when the contract expires or ends.                                                   |
+| **contract_period_days** | Total duration of the contract in days.                                                   |
+| **status**               | Current contract state (Active, Expired, Pending, etc.).                                  |
+| **governing_law**        | Legal jurisdiction whose laws govern the agreement.                                       |
+| **renewal_type**         | Renewal mechanism (Auto-Renew or Manual Renewal).                                         |
+| **notice_period_days**   | Number of days' notice required before termination or renewal changes.                    |
+
+
 #⚖️ Clauses Dataset
 
 Contains individual legal clauses extracted from contracts along with clause type and risk level.
@@ -48,6 +61,15 @@ Termination clauses are the most frequently occurring clause type.
 High-risk clauses account for 34% of all clauses analyzed.
 Common clause categories include Confidentiality, Termination, Indemnification, Payment Terms, and Governing Law.
 
+| Column          | Description                                                                    |
+| --------------- | ------------------------------------------------------------------------------ |
+| **contract_id** | Links the clause to a specific contract.                                       |
+| **clause_id**   | Unique identifier for each clause.                                             |
+| **clause_type** | Category of clause (Confidentiality, Termination, Indemnification, SLA, etc.). |
+| **clause_text** | Full textual content of the clause.                                            |
+| **risk_level**  | AI-assigned or predefined legal risk rating (High, Medium, Low).               |
+
+
 #📋 Summaries Dataset
 
 Provides AI-generated contract intelligence including executive summaries, obligations, and risks.
@@ -57,6 +79,14 @@ Insights
 Covers 100 contract summaries.
 Enables rapid contract understanding without reviewing full documents.
 Highlights key obligations, deadlines, and legal risks.
+| Column                | Description                                                              |
+| --------------------- | ------------------------------------------------------------------------ |
+| **contract_id**       | Contract identifier linked to the master contract table.                 |
+| **executive_summary** | Short business-friendly summary of the contract.                         |
+| **key_obligations**   | Important responsibilities or commitments of the parties.                |
+| **key_risks**         | Major legal, financial, or operational risks identified in the contract. |
+
+
 
 #📚 Legal Terms Dataset
 
@@ -67,6 +97,17 @@ Insights
 Contains legal terminology and definitions.
 Simplifies complex legal concepts for business users.
 Enhances AI-powered legal assistance and knowledge retrieval.
+
+| Column                   | Description                                                        |
+| ------------------------ | ------------------------------------------------------------------ |
+| **term**                 | Legal concept or terminology.                                      |
+| **definition**           | Formal legal definition of the term.                               |
+| **business_explanation** | Simplified explanation describing the business impact of the term. |
+
+
+
+## ⚠️ Problem Statement
+Legal departments often manage vast repositories of contracts and clauses. Traditionally, searching for specific terms (e.g., "force majeure" or "liability limits") across hundreds and thousands of documents is either a tedious , slow manual process or requires a data analyst to write complex SQL queries. This friction slows down legal audits, compliance checks, and due diligence.
 
 
 ## 🔍 Analysis with a Scenario
@@ -102,38 +143,90 @@ Legal-ContractIQ-BQ Agent/
 - A service account key with BigQuery Data Editor and Vertex AI User roles.
 
 ### 2. Setup
-1. Clone the repository:
+1. Project setup :
+   gcloud auth list
+   gcloud config list project
+   gcloud auth login OR
+   gcloud auth application-default login
+   export PROJECT_ID=<YOUR_PROJECT_ID>
+   gcloud config set project <YOUR_PROJECT_ID>
+
+2.  Clone the repository:
    ```bash
    git clone https://github.com/Madhu-712/Hack2skill-GenAI-Academy-cohort-2-Legal-ContractIq-BQ-Agent.git
    cd Hack2skill-GenAI-Academy-cohort-2-Legal-ContractIq-BQ-Agent
    ```
-2. Place your `service-account-key.json` in the `Legal-ContractIQ-BQ Agent/` directory.
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+3. cd Legal-ContractIQ-BQ Agent
+   Place your `service-account-key.json` in the `Legal-ContractIQ-BQ Agent/` directory.
 
 ### 3. Data Ingestion
 Populate your BigQuery dataset by running the ETL script:
 ```bash
 python "Legal-ContractIQ-BQ Agent/hf_to_bigquery.py"
 ```
+Other tables are added directly inside BQ datasets (Clauses, Contracts, Summmaries, legal terms).
 
+ Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   
+   ```
 ### 4. Running the App
-Launch the Streamlit dashboard:
-```bash
-streamlit run "Legal-ContractIQ-BQ Agent/app.py"
+ Make sure an <Agent ID >placeholder is replaced with an unique, system-generated alphanumeric string (usually a UUID, like f9f8f8c0-f8f8-4f8f-8f8f-8f8f8f8f8f88) that Google Cloud uses behind the scenes to pinpoint your specific AI agent in app.py file.
+From your URLs, we can see you are using the new BigQuery Data Agents infrastructure. Your key credentials are right there in the path https://lookerstudio.google.com/conversation?agent=projects/notebooklm-491108/locations/us/dataAgents/agent_c03cf192-61ec-4859-a042-4bd22d531bc5
+
+Project ID: notebooklm-491108
+Location: us (This is important! It's multi-region us, not us-central1)
+Agent ID: agent_c03cf192-61ec-4859-a042-4bd22d531bc5
+
+Start the streamlit server by running
+   ```bash
+   python3 -m streamlit run app.py --server.port 8080 --server.enableCORS false --server.enableXsrfProtection false
+  
+   OR if streamlit/config.toml is not set
+   
+   streamlit run app.py --server.port 8080
+
 ```
 
 ## 🐳 Deployment
 To run the project in a containerized environment:
-```bash
-docker build -t legal-agent .
-docker run -p 8501:8501 --env-file .env legal-agent
-```
 
-## 🔗 Live Demo
-[Check out the Live Demo here!](https://github.com/Madhu-712/Hack2skill-GenAI-Academy-cohort-2-Legal-ContractIq-BQ-Agent) *(Replace with actual URL if hosted)*
+1.-Create a Dockerfile
+
+2.Enable required API's
+-gcloud services enable artifactregistry.googleapis.com run.googleapis.com cloudbuild.googleapis.com
+
+3.Create a docker repo in artifact registry
+-gcloud artifacts repositories create legal-repo \
+    --repository-format=docker \
+    --location=us \
+    --description="Docker repository for legal agent app"
+
+4.Build the container image using Cloud build
+-gcloud builds submit --tag us-docker.pkg.dev/notebooklm-491108/legal-repo/legal-agent-app:v1 
+
+5.Deploy using docker command
+gcloud run deploy legal-agent-service \
+    --image=us-docker.pkg.dev/notebooklm-491108/legal-repo/legal-agent-app:v1 \
+    --region=us-central1 \
+    --allow-unauthenticated
+
+    
+## 🔗 Live Demo link
+[https://legal-agent-service-881601845310.us-central1.run.app]
+
+Streamlit App hosted on CloudRun service url
+
+https://legal-agent-service-881601845310.us-central1.run.app
+
+## Q&A interactions with agents 
+"Which contracts expire in the next 90 days?"
+"Show all contracts with high-risk termination clauses."
+"What are the key obligations in active vendor agreements?"
+"Which governing law appears most frequently?"
+"Summarize the risks across all NDAs."
+
 
 ## 🤝 Contributions
 Contributions are welcome! If you have suggestions for new features or data visualizations, please:

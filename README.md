@@ -12,11 +12,85 @@ The **Legal-ContractIQ-BQ Agent** is a generative AI solution designed to bridge
 
 
 ## 🏗️ Architecture
+
+Users interact with ContractIQ through a conversational interface. The Agent layer leverages Gemini for reasoning and Natural Language-to-SQL generation, queries structured legal knowledge stored in BigQuery, and returns contract intelligence, risk analysis, compliance insights, and conversational analytics in natural language.
+
 The system follows a modern cloud-native data pipeline:
 1.  **Data Ingestion:** A Python ETL script (`hf_to_bigquery.py`) fetches the **Strova AI Legal Dataset** from Hugging Face and other csv files are imported into the BQ tables.
 2.  **Data Warehouse(Data layer):** Sanitized data is stored in **Google BigQuery** across multiple tables (`clauses`, `contracts`, `legal_terms`, `summaries`).
 3.  **AI Layer:** **Vertex AI BigQuery Data Agents** process natural language inputs and interact with the BigQuery dataset.
 4.  **UI/UX:** A **Streamlit** dashboard provides a clean, professional interface for users to chat with the data agent to get insights on legal contracts and view dataset metrics.
+
+ 
+ ───────────────────────────┐
+│           USER            │
+│ Ask Questions / Upload    │
+│ Contracts                 │
+└─────────────┬─────────────┘
+              │
+              ▼
+┌───────────────────────────┐
+│      APPLICATION UI       │
+│      Streamlit Frontend   │
+└─────────────┬─────────────┘
+              │
+              ▼
+┌─────────────────────────────────────────┐
+│               AGENT LAYER               │
+├─────────────────────────────────────────┤
+│           ContractIQ Agent              │
+│                                         │
+│ • Query Understanding                   │
+│ • Intent Classification                 │
+│ • Contract Analysis                     │
+│ • Risk Detection                        │
+│ • Conversational Analytics              │
+│ • Natural Language → SQL Generation     │
+│ • Response Orchestration                │
+└─────────────┬───────────────────────────┘
+              │
+              ▼
+┌───────────────────────────┐
+│        GEMINI MODEL       │
+├───────────────────────────┤
+│ • Reasoning               │
+│ • Summarization           │
+│ • Explanation             │
+│ • Insight Generation      │
+└─────────────┬─────────────┘
+              │
+              ▼
+┌─────────────────────────────────────────┐
+│               DATA LAYER                │
+├─────────────────────────────────────────┤
+│ Google BigQuery                         │
+│                                         │
+│ • contracts_updated                     │
+│ • clauses                               │
+│ • summaries                             │
+│ • legal_terms                           │
+│                                         │
+│ Structured Knowledge Repository         │
+└─────────────┬───────────────────────────┘
+              │
+              ▼
+┌───────────────────────────┐
+│      INSIGHTS LAYER       │
+├───────────────────────────┤
+│ • Contract Summaries      │
+│ • Clause Analysis         │
+│ • Risk Assessment         │
+│ • Compliance Insights     │
+│ • Conversational Answers  │
+│ • Business Recommendations│
+└─────────────┬─────────────┘
+              │
+              ▼
+┌───────────────────────────┐
+│         END USER          │
+│ AI-Powered Contract       │
+│ Intelligence & Analytics  │
+└───────────────────────────┘
 
 
 ## 📊 Dataset Overview & Key Insights

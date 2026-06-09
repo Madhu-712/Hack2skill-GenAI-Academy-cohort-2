@@ -222,11 +222,13 @@ gcloud run deploy legal-agent-service \
 
     
 ## 🔗 Live Demo link
-[https://legal-agent-service-881601845310.us-central1.run.app]
 
 Streamlit App hosted on CloudRun service url
-
 https://legal-agent-service-881601845310.us-central1.run.app
+
+Medium post link:
+https://medium.com/@madhu.712/contractiq-transforming-legal-contracts-into-conversational-intelligence-with-bigquery-and-gemini-69bf909e3606
+
 
 
 ## Example Queries
